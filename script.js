@@ -66,7 +66,10 @@ const restaurants = [
         closing: "9:00 PM; 12:00 AM (Fri-Sat); 10 PM (Sun)",
         menu: "https://drive.google.com/drive/folders/1jmAyyhjBsJpyWlKF3JGOmZJZ7ZL5lCao?usp=sharing",
         notes: "Coffee, Meals",
-        photos: [] // no photos provided
+          photos: [
+	"https://i.imgur.com/ciISYcf.png",
+	"https://i.imgur.com/EKMIgJX.png" 
+	]
     }
 ];
 
