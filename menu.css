@@ -1,0 +1,97 @@
+/* menu.css */
+
+/* Space under the header */
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px 6vw;
+  background: var(--accent);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#backBtn {
+  background: white;
+  color: var(--accent-dark);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#backBtn:hover {
+  background: var(--beige-light);
+}
+
+#cafeName {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Container for search + category filters */
+#menuControls {
+  display: flex;
+  gap: 12px;
+  padding: 20px 6vw 0;
+  flex-wrap: wrap;
+}
+
+#menuControls input,
+#menuControls select {
+  flex: 1 1 200px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 2px solid #eddcc0;
+  border-radius: 8px;
+  background: var(--beige-light);
+  box-shadow: 0 2px 6px var(--shadow);
+  outline: none;
+}
+
+/* Main list of menu items */
+#menuList {
+  padding: 20px 6vw 40px;
+}
+
+/* Each menu-card */
+.menu-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px dashed #d9c3a1;
+  position: relative;
+}
+
+.menu-card .item-name {
+  font-weight: 500;
+}
+
+.menu-card .dots::before {
+  content: "";
+  display: block;
+  border-bottom: 1px dotted #c0a685;
+  width: 100%;
+  transform: translateY(-0.6em);
+}
+
+.menu-card .item-price {
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+.menu-card .item-cat {
+  position: absolute;
+  top: -1.2em;
+  left: 0;
+  font-size: 0.75em;
+  background: var(--beige-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--accent-dark);
+}

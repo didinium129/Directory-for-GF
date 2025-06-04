@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu • Iloilo Café Directory</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <header>
+    <!-- Back button -->
+    <button id="backBtn">← Directory</button>
+    <!-- This will be replaced by menu.js -->
+    <h1 id="cafeName">Loading…</h1>
+  </header>
+
+  <!-- Filters: search box + category dropdown -->
+  <section id="menuControls">
+    <input
+      type="text"
+      id="searchMenu"
+      placeholder="🔍 Search items…"
+    >
+    <select id="catFilter">
+      <option value="">All categories</option>
+    </select>
+  </section>
+
+  <!-- Where menu items will be injected -->
+  <main id="menuList"></main>
+
+  <!-- Make sure this is type="module" so we can import restaurants.js -->
+  <script type="module" src="menu.js"></script>
+</body>
+</html>
