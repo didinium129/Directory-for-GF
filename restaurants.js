@@ -3,8 +3,15 @@ export const restaurants = [
   {
     id: "monkey-grounds",                  // ← unique slug
     menu: [
-      { category: "Coffee", item: "Espresso",     price: 95 },
-      { category: "Coffee", item: "Cappuccino",   price: 120 },
+      { category: "Coffee - Arabica", item: "Americano (Hot)",     price: 115 },
+      { category: "Coffee - Arabica", item: "Americano (Iced)",     price: 125 },
+      { category: "Coffee - Arabica", item: "Aerocano (Iced)",   price: 125 },
+      { category: "Coffee - Arabica", item: "Mocha (Hot)",   price: 145 },
+      { category: "Coffee - Arabica", item: "Mocha (Iced)",   price: 155 },
+      { category: "Coffee - Robusta", item: "Americano (Hot)",   price: 85 },
+      { category: "Coffee - Robusta", item: "Americano (Iced)",   price: 95 },
+      { category: "Coffee - Robusta", item: "Mocha (Hot)",   price: 115 },
+      { category: "Coffee - Robusta", item: "Mocha (Iced)",   price: 125 },
       { category: "Salad",  item: "Savory Summer (Greens and Veggies on Raspberry Vinaigrette Dressing. w/ poached egg and croutons)",   price: 220 },
       { category: "Salad",  item: "Oriental Salad (Lettuce, carrots, jicama, peanuts, fried vermicelli with hoisin-sesame dressing)",   price: 220 },
       { category: "Salad",  item: "Roquette Salata (Roquette arugula and romaine on a greek vinaigrette dressing, walnut praline, sun-dried tomatoes, shaved parmesan)",   price: 245 },
